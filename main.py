@@ -158,6 +158,7 @@ class Calc():
 
 sum1 = Calc()
 root = Tk()
+root.resizable(False, False)
 calc = Frame(root)
 calc.grid()
 
